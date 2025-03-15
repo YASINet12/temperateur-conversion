@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form >
+        <h1>temperateur conversion:</h1>
+        <input type="number" id="texbox" value="0"><br>
+        <input type="radio" id="tofahrenhiet" name="unit">
+        <label for="tofahrenhiet">Celsuis ➡ fahrenhiet</label><br>
+
+        <input type="radio" id="toCelsuis" name="unit">
+        <label for="toCelsuis">fahrenhiet ➡ Celsuis </label>
+        <button type="button" onclick="convert()">submit</button>
+        <p id="result"></p>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
